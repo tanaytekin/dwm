@@ -40,9 +40,8 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
     "setxkbmap", "us", NULL,
-    //"picom", "--conf",  "/home/tan/rice/picom.conf", "--experimental-backends", NULL,
     "picom", "--no-fading-openclose",  NULL,
-    "feh", "--bg-scale", "/home/tan/rice/wallpaper.png", NULL, 
+    "feh", "--bg-scale", "/usr/local/share/wallpaper.png", NULL, 
     "dwmblocks", NULL,
 	NULL /* terminate */
 };
